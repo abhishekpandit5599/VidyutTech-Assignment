@@ -1,0 +1,107 @@
+.product-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(123, 123, 123, 0.2), 0 6px 20px 0 rgba(102, 102, 102, 0.19);
+    cursor: pointer;
+}
+
+.product-card {
+    background-color: rgb(246, 244, 244);
+    display: inline-block;
+    width: 20%;
+    height: 300px;
+    overflow: hidden;
+    margin: 20px 40px;
+    padding: 50px;
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.product-img {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.product-img img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+.product-img .card-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-list-wrap {
+    margin-top: 50px;
+}
+
+.card-list-wrap span {
+    float: right;
+    color: green;
+}
+
+.card-des {
+    margin-top: 20px;
+}
+
+.card-title {
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 1250px) {
+    .product-img {
+        display: block;
+        text-align: center;
+    }
+
+    .product-img .card-title {
+        margin-top: 20px;
+    }
+
+    .product-card {
+        background-color: rgb(246, 244, 244);
+        display: inline-block;
+        width: 20%;
+        height: 400px;
+        overflow: hidden;
+        margin: 20px 40px;
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .product-card {
+        background-color: rgb(246, 244, 244);
+        display: inline-block;
+        width: 35%;
+        height: 350px;
+        overflow: hidden;
+        margin: 20px 20px;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 671px) {
+    .product-card {
+        background-color: rgb(246, 244, 244);
+        display: inline-block;
+        width: 80%;
+        height: 350px;
+        overflow: hidden;
+        margin: 20px 20px;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .product-card {
+        background-color: rgb(246, 244, 244);
+        display: inline-block;
+        width: 85%;
+        height: 350px;
+        overflow: hidden;
+        margin: 20px 10px;
+        padding: 20px;
+    }
+}

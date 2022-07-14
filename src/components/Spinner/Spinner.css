@@ -1,0 +1,17 @@
+.spinner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    
+}
+.spinner-container img{
+    /* width:80px; */
+    margin: 15px;
+}
+@media screen and (max-width: 500px){
+    .spinner-container img{
+        width:60px;
+        margin: 30px;
+    }
+}

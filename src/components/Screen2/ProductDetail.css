@@ -1,0 +1,75 @@
+.main-container {
+    margin-bottom: 50px;
+}
+
+.details-card {
+    background-color: rgb(246, 244, 244);
+    overflow: hidden;
+    margin: 20px 40px;
+    padding: 100px;
+    padding-top: 50px;
+    border-radius: 15px;
+    transition: .4s;
+}
+
+/* .details-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(123, 123, 123, 0.2), 0 6px 20px 0 rgba(102, 102, 102, 0.19);
+} */
+.back-arrow {
+    position: absolute;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: x-large;
+    border: 1px solid grey;
+    background-color: rgb(237, 237, 237);
+}
+
+.details-card-img img {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.details-card-about {
+    margin-top: 50px;
+}
+
+.details-card-about span {
+    float: right;
+    color: green;
+}
+
+.details-card-title {
+    margin: 30px auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .details-card {
+        margin: 20px 40px;
+        padding: 50px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .back-arrow {
+        padding: 12px;
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .details-card {
+        margin: 20px 20px;
+        padding: 20px;
+        padding-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .back-arrow {
+        padding: 10px;
+        font-size: smaller;
+    }
+}

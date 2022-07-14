@@ -1,0 +1,168 @@
+.top-navbar-main-container {
+    position: fixed;
+    width: 100vw;
+    z-index: 20;
+    /* background: linear-gradient(to right,#FCA009,#FCB823); */
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-navbar-logo {
+    margin: 10px 0px 10px 50px;
+}
+
+.top-navbar-logo img {
+    width: 150px;
+    height: auto;
+}
+
+li {
+    list-style: none;
+}
+
+/* .top-navbar-list{
+    float: right;
+} */
+.top-navbar-list,
+.top-navbar-logo {
+    display: inline-block;
+}
+
+.top-navbar-input-search-job {
+    width: 280px;
+    outline: none;
+    padding: 13px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 20px;
+    vertical-align: middle;
+    font-size: large;
+}
+
+.top-navbar-list form {
+    display: inline-block;
+}
+
+.m-r {
+    margin-right: 20px;
+}
+
+.top-bar-icons {
+    margin-right: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sub-profile-img-topbar {
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.profile-img-topbar {
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.profile-options {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    margin: 18px 10px;
+    padding: 20px 0px;
+}
+
+.profile-options li a {
+    color: #000;
+}
+
+.profile-options li {
+    cursor: pointer;
+    padding: 5px 20px;
+    margin: 5px 10px;
+}
+
+.profile-options li:hover {
+    background-color: rgb(240, 240, 240);
+    color: #FCB823;
+}
+
+.profile-options li:hover a {
+    color: #FCB823;
+}
+
+.profile-show {
+    padding: 5px 20px;
+    margin: 5px 10px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.profile-show h4 {
+    display: inline-block;
+}
+
+.top-bell-icon {
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 10px;
+    padding: 13px;
+    vertical-align: middle;
+}
+
+.profile-top-bar {
+    display: inline-block;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 10px;
+    padding: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.top-bar-icons .user-name-grey {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(101, 101, 101);
+}
+
+
+@media screen and (max-width: 1155px) {
+    .top-navbar-main-container {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .job-location {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .job-search {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 534px) {
+    .top-bar-icons {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .top-bar-icons {
+        display: none;
+    }
+}
